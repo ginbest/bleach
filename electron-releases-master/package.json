@@ -1,0 +1,38 @@
+{
+  "main": "index.js",
+  "types": "electron.d.ts",
+  "bin": {
+    "electron": "cli.js"
+  },
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "dependencies": {
+    "@electron/get": "^1.13.0",
+    "@types/node": "^14.6.2",
+    "extract-zip": "^1.0.3"
+  },
+  "engines": {
+    "node": ">= 8.6"
+  },
+  "name": "electron",
+  "version": "18.0.0-beta.2+wvcus",
+  "repository": "https://github.com/castlabs/electron-releases",
+  "description": "Build cross platform desktop apps with JavaScript, HTML, CSS, and Widevine DRM protection",
+  "license": "MIT",
+  "author": "castLabs GmbH (based on work by the Electron Community)",
+  "maintainers": [
+    {
+      "name": "Emil Pettersson",
+      "email": "emil.pettersson@castlabs.com"
+    }
+  ],
+  "keywords": [
+    "electron",
+    "widevine",
+    "vmp",
+    "drm",
+    "offline",
+    "persistent-license"
+  ]
+}
